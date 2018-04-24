@@ -11,37 +11,81 @@
     <script src="assets/javascript/game.js"></script>
     <title>Document</title>
 </head>
+<div class="container">
 
-<body>
-    <div class="row">
-        <div class="col-md-4">
-            <h1>CrystalsCollector!</h1>
+    <body>
+        <div class="row">
+            <div class="col-md-4" id="collector">
+                <h1>CrystalsCollector!</h1>
+            </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-6">
-            <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <div class="row">
+            <div class="col-md-6" id="paragraphs">
+                <br>
+                <p>You will be given a random number at the start of the game.</p>
+                <br>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.
+                </p>
+                <br>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes
+                    above the random number.</p>
+                <br>
+                <p>The value of each crystal is hidden from you until you click on it</p>
+                <br>
+                <p>Each time when the game starts, the game will change the values of each crystal</p>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
         </div>
-    </div>
 
-    <div id="target">0</div>
-
-    <div class="">
-        <div id="wins">0</div>
-        <div id="loses">0</div>
-    </div>
+        <div class="row">
+            <div class="col-md-3" id="target">0</div>
 
 
-    <div>
-        <img src="/assets/images/" class="crystal" id="crystal1" data-value="1">
-        <img src="/assets/images/" class="crystal" id="crystal2" data-value="2">
-        <img src="/assets/images/" class="crystal" id="crystal3" data-value="3">
-        <img src="/assets/images/" class="crystal" id="crystal4" data-value="4">
-    </div>
+            <div clas="col-md-1" id="win-loss">
+                <div id="wins">Wins 0</div>
+                <div id="loses">Losses 0</div>
+            </div>
+        </div>
 
-    <div id="score">0</div>
+        <br>
 
-</body>
+        <div>
+            <div class="row">
+                <div class="col-md-1">
+                    <img src="/assets/images/if_Crystal_Shard_2913097.png" class="crystal" id="crystal1" data-value="1">
+                </div>
+                <div class="col-md-1">
+                    <img src="/assets/images/" class="crystal" id="crystal2" data-value="2">
+                </div>
+                <div class="col-md-1">
+                    <img src="/assets/images/" class="crystal" id="crystal3" data-value="3">
+                </div>
+                <div class="col-md-1">
+                    <img src="/assets/images/" class="crystal" id="crystal4" data-value="4">
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="cpl-md-3" id="total">
+                Your total score is:
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-3" id="score">0</div>
+        </div>
+
+    </body>
+</div>
 
 </html>

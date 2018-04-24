@@ -1,0 +1,34 @@
+.container {
+  background: lightblue;
+}
+
+#collector {
+  background: brown;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#paragraphs {
+  background: lightgray;
+  color: green;
+}
+
+#target {
+  background: green;
+  color: brown;
+  font-size: 25px;
+}
+
+#win-loss {
+  background: aqua;
+  font-size: 18px;
+}
+
+#total {
+  background: yellow;
+}
+
+#score {
+  background: yellow;
+}
